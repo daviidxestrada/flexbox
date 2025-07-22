@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    box-sizing: border-box;
+}
+
+.flex-container{
+    border: 2px solid black;
+    width: 80%;
+    margin: 50px auto;
+    padding: 10px;
+    height: 500px;
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: ;
+}
+
+.flex-container>* {
+ font-size: 2rem;
+ width: 50px;
+ border: 1px dotted black;
+ text-align: center;
+ padding: 10px;
+ background-color: red;
+}
